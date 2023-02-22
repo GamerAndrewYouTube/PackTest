@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "minecraft:item/iron_ingot"
+        },
+		
+	"overrides":[
+	
+		{"predicate": {"custom_model_data":2}, "model": "item/mk/tl/mk-tl-trash-can"},
+		{"predicate": {"custom_model_data":3}, "model": "item/mk/ms/mk-ms-trash-can"},
+		{"predicate": {"custom_model_data":5}, "model": "item/generic/generic-trash-can"},
+		{"predicate": {"custom_model_data":10}, "model": "item/mk/tl/mi/mk-tl-mi-fastpass-sign"},
+		{"predicate": {"custom_model_data":13}, "model": "item/item/item-autograph-book"},
+		{"predicate": {"custom_model_data":14}, "model": "item/item/tech/item-tech-smartphone"},
+		{"predicate": {"custom_model_data":17}, "model": "item/mk/lm/mk-lm-octopus"},
+		{"predicate": {"custom_model_data":18}, "model": "item/mk/lm/mk-lm-ursula"},
+		{"predicate": {"custom_model_data":19}, "model": "item/mk/lm/mk-lm-ursula-head"},
+		{"predicate": {"custom_model_data":20}, "model": "item/mk/lm/mk-lm-ursula-body"},
+		{"predicate": {"custom_model_data":21}, "model": "item/mk/lm/mk-lm-ursula-left-arm"},
+		{"predicate": {"custom_model_data":22}, "model": "item/mk/lm/mk-lm-ursula-right-arm"},
+		{"predicate": {"custom_model_data":33}, "model": "item/item/gun/item-gun-bullet"},
+		{"predicate": {"custom_model_data":49}, "model": "item/lamps/black-lamp-post"},
+		{"predicate": {"custom_model_data":50}, "model": "item/lamps/spruce-plant-lamp-post"},
+		{"predicate": {"custom_model_data":51}, "model": "item/benches/spruce-black-bench"},
+		{"predicate": {"custom_model_data":52}, "model": "item/lamps/dark-black-short-lamp-post"},
+		{"predicate": {"custom_model_data":53}, "model": "item/nature/nature-hanging-pot"},
+		{"predicate": {"custom_model_data":54}, "model": "item/nature/nature-hanging-pot-flowers"},
+		{"predicate": {"custom_model_data":55}, "model": "item/nature/antlers-small"},
+		{"predicate": {"custom_model_data":56}, "model": "item/nature/antlers"},
+		{"predicate": {"custom_model_data":57}, "model": "item/mk/frontier-trading-post-sign"},
+		{"predicate": {"custom_model_data":58}, "model": "item/mk/frontierland-shootin-arcade-sign"},
+		{"predicate": {"custom_model_data":59}, "model": "item/mk/mk-fsa-coin-slot"}
+	]
+}

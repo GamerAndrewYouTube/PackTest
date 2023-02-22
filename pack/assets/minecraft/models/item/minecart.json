@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "minecraft:item/minecart"
+        },
+	
+	"overrides":[
+	
+		{"predicate": {"custom_model_data":6}, "model": "item/mk/ms/mk-ms-trolley"},
+		{"predicate": {"custom_model_data":14}, "model": "item/mk/tl/buzz/mk-tl-buzz-car"},
+		{"predicate": {"custom_model_data":15}, "model": "item/mk/lm/mk-lm-car"},
+		{"predicate": {"custom_model_data":16}, "model": "item/mk/tl/people-mover/people-mover-car"},
+		{"predicate": {"custom_model_data":17}, "model": "item/mk/7-dwarfs-minetrain"},
+		{"predicate": {"custom_model_data":18}, "model": "item/mk/small-world-car"},
+		{"predicate": {"custom_model_data":200}, "model": "item/mk/tl/speedway-car"}
+	]
+}

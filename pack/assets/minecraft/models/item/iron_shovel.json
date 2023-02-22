@@ -1,0 +1,42 @@
+{
+    "parent": "minecraft:item/generated",
+        "textures": {
+          "layer0": "minecraft:item/iron_shovel"
+        },
+	
+	"overrides":[
+	
+		{"predicate": {"custom_model_data":3}, "model": "item/item/backpack/item-backpack-haunted-mansion"},
+		{"predicate": {"custom_model_data":4}, "model": "item/item/tech/item-tech-nintendo-switch-gray"},
+		{"predicate": {"custom_model_data":5}, "model": "item/item/tech/item-tech-nintendo-switch-oled"},
+		{"predicate": {"custom_model_data":6}, "model": "item/item/tech/item-tech-nintendo-switch"},
+		{"predicate": {"custom_model_data":7}, "model": "item/item/backpack/item-backpack-mickey-white"},
+		{"predicate": {"custom_model_data":8}, "model": "item/item/backpack/item-backpack-monsters-inc"},
+		{"predicate": {"custom_model_data":9}, "model": "item/item/backpack/item-backpack-donald-yellow"},
+		{"predicate": {"custom_model_data":11}, "model": "item/item/hat/item-hat-mickey-ears"},
+		{"predicate": {"custom_model_data":12}, "model": "item/item/hat/item-hat-minnie-ears"},
+		{"predicate": {"custom_model_data":17}, "model": "item/item/tech/item-tech-gameboy"},
+		{"predicate": {"custom_model_data":18}, "model": "item/item/item-magic-band"},
+		{"predicate": {"custom_model_data":19}, "model": "item/mk/tl/buzz/mk-tl-buzz-blaster"},
+		{"predicate": {"custom_model_data":21}, "model": "item/item/hat/item-hat-cowboy"},
+		{"predicate": {"custom_model_data":22}, "model": "item/item/item-tnt"},
+		{"predicate": {"custom_model_data":23}, "model": "item/item/item-bloody-axe"},
+		{"predicate": {"custom_model_data":24}, "model": "item/item/hat/item-hat/blue"},
+		{"predicate": {"custom_model_data":26}, "model": "item/item/tie/item-tie-blue"},
+		{"predicate": {"custom_model_data":27}, "model": "item/item/hat/item-hat-miner"},
+		{"predicate": {"custom_model_data":29}, "model": "item/item/flag/item-flag-pride"},
+		{"predicate": {"custom_model_data":30}, "model": "item/item/hat/item-hat-pride"},
+		{"predicate": {"custom_model_data":31}, "model": "item/item/backpack/item-backpack-pride"},
+		{"predicate": {"custom_model_data":36}, "model": "item/item/gun/item-gun"},
+		{"predicate": {"custom_model_data":37}, "model": "item/item/gun/item-gun-silver"},
+		{"predicate": {"custom_model_data":38}, "model": "item/item/gun/item-gun-golden"},
+		{"predicate": {"custom_model_data":39}, "model": "item/item/gun/item-gun-dynamite"},
+		{"predicate": {"custom_model_data":40}, "model": "item/item/gun/rifle"},
+		{"predicate": {"custom_model_data":42}, "model": "item/item/item-sunglasses"},
+		{"predicate": {"custom_model_data":46}, "model": "item/item/item-gold-wings-staff"},
+		{"predicate": {"custom_model_data":47}, "model": "item/mk/tl/space-mountain/space-mountain-car"},
+		{"predicate": {"custom_model_data":48}, "model": "item/mk/tl/space-mountain/space-mountain-sign"},
+		{"predicate": {"custom_model_data":49}, "model": "item/mk/tl/space-mountain/space-mountain-standby-sign"},
+		{"predicate": {"custom_model_data":50}, "model": "item/mk/tl/space-mountain/space-mountain-lightning-sign"}
+	]
+}
